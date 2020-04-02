@@ -1,0 +1,15 @@
+.reset-reset {
+    background-color: #34e7e4;
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+}
+
+.reset-reset:hover {
+    background-color: #54f7f4;
+}
