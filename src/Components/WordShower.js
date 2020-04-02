@@ -20,7 +20,7 @@ class WordShower extends Component{
                 return ' _ ';
             });
 
-            if (result === this.props.word.toUpperCase()) {
+            if (result.join('') === this.props.word.toUpperCase()) {
                 this.props.selectGameState(GameState.win);
             }
             return result;
